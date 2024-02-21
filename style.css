@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+li a {
+  margin: 0px 10px !important;
+}
+
+/* ------jf */
+.mycontainer {
+  background-image: url(images/coverbg.webp);
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  height: 75vh;
+}
+.heading h3 {
+  margin-top: 3vh;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.heading h6 {
+  margin-top: 3vh;
+  font-size: 17px;
+  font-weight: 600;
+}
+.heading p {
+  margin-top: 3vh;
+  font-size: 18px;
+  font-weight: 500;
+  color: lightgrey;
+}
+.left .btn {
+  background-color: burlywood;
+  color: white;
+  font-size: 25px;
+  padding: 10px 35px;
+  margin: 0px 5px;
+}
+.left .btn:hover {
+  border: 2px solid burlywood;
+  background-color: white;
+  color: burlywood;
+}
+.mmm {
+  margin-right: 200px !important;
+}
+
+.navbar h1 {
+  font-size: 20px;
+  margin-right: 17vw !important;
+}
+.mybtn {
+  display: inline;
+}
+
+.contanier-2 {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: white;
+}
+
+.contanier-2 h4 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.mycard {
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 3vh;
+  border: 1px solid burlywood;
+  height: 350px;
+  background-color: white;
+  width: 22vw;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  color: white;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+font-weight: 700;
+}
